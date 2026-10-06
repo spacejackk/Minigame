@@ -9,6 +9,7 @@ Dev Log:
 - Added blocks that can be moved by shooting them
 - Added walls that can't be moved or shot through
 - Added shields that can't be moved but can be shot through
+- Added nine unique levels
 - Added text instructions to three levels
 - Added the pause menu with a restart level button
 - Added a level selection menu with buttons that load each level
