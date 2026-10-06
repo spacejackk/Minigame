@@ -42,11 +42,11 @@ public class playerController : MonoBehaviour
 		if (transform.position.z != 0){
 			transform.position = new Vector3(transform.position.x, transform.position.y, 0);
 		}
-		if (transform.position.x < -9){
-			transform.position = new Vector3(-9, transform.position.y, 0);
+		if (transform.position.x < -8){
+			transform.position = new Vector3(-8, transform.position.y, 0);
 		}
-		else if (transform.position.x > 9){
-			transform.position = new Vector3(9, transform.position.y, 0);
+		else if (transform.position.x > 8){
+			transform.position = new Vector3(8, transform.position.y, 0);
 		}
 		if (transform.position.y < -5){
 			transform.position = new Vector3(transform.position.x, -5, 0);

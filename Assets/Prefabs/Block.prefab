@@ -125,8 +125,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2eaf6248043675d41abba9ba37e27995, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::detectCollisions
-  level: 0
-  blockPrefab: {fileID: 5720760432493345286}
-  wallPrefab: {fileID: 3740152344865171533, guid: e635e5138a3910c4fa253fcdc2fbae19, type: 3}
-  shieldPrefab: {fileID: 1329183650043797496, guid: 63e31da27466f2d41822253751ce304f, type: 3}
   bullet: {fileID: 0}
+  ui: {fileID: 0}
+  levels: {fileID: 0}
