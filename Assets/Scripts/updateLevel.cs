@@ -42,7 +42,7 @@ public class updateLevel : MonoBehaviour
 			ui.instructions.transform.position = new Vector3(23, 50, 0);
 			GameObject.Find("Escort").transform.position = new Vector3(0, -2, 0);
 			GameObject.Find("Shooter").transform.position = new Vector3(0, 0, 0);
-			GameObject.Find("Win").transform.position = new Vector3(0, 3, 0);
+			GameObject.Find("Win").transform.position = new Vector3(0, 3, 0.01f);
 			Instantiate(blockPrefab, new Vector3(0, 2, 0), blockPrefab.transform.rotation);
 			Instantiate(blockPrefab, new Vector3(1, 3, 0), blockPrefab.transform.rotation);
 			Instantiate(blockPrefab, new Vector3(-1, 3, 0), blockPrefab.transform.rotation);
@@ -58,7 +58,7 @@ public class updateLevel : MonoBehaviour
 			ui.instructions.transform.position = new Vector3(23, 50, 0);
 			GameObject.Find("Escort").transform.position = new Vector3(0, -2, 0);
 			GameObject.Find("Shooter").transform.position = new Vector3(0, 0, 0);
-			GameObject.Find("Win").transform.position = new Vector3(0, 3, 0);
+			GameObject.Find("Win").transform.position = new Vector3(0, 3, 0.01f);
 			Instantiate(blockPrefab, new Vector3(0, 2, 0), blockPrefab.transform.rotation);
 			Instantiate(wallPrefab, new Vector3(1, 3, 0), wallPrefab.transform.rotation);
 			Instantiate(wallPrefab, new Vector3(-1, 3, 0), wallPrefab.transform.rotation);
@@ -74,7 +74,7 @@ public class updateLevel : MonoBehaviour
 			ui.instructions.transform.position = new Vector3(23, 435, 0);
 			GameObject.Find("Escort").transform.position = new Vector3(0, -2, 0);
 			GameObject.Find("Shooter").transform.position = new Vector3(0, -4, 0);
-			GameObject.Find("Win").transform.position = new Vector3(0, 2, 0);
+			GameObject.Find("Win").transform.position = new Vector3(0, 2, 0.01f);
 			Instantiate(wallPrefab, new Vector3(0, 1, 0), wallPrefab.transform.rotation);
 			Instantiate(blockPrefab, new Vector3(1, 2, 0), blockPrefab.transform.rotation);
 			Instantiate(blockPrefab, new Vector3(-1, 2, 0), blockPrefab.transform.rotation);
@@ -86,7 +86,7 @@ public class updateLevel : MonoBehaviour
 		else if (level == 4){
 			GameObject.Find("Escort").transform.position = new Vector3(0, -2, 0);
 			GameObject.Find("Shooter").transform.position = new Vector3(0, -4, 0);
-			GameObject.Find("Win").transform.position = new Vector3(0, 2, 0);
+			GameObject.Find("Win").transform.position = new Vector3(0, 2, 0.01f);
 			Instantiate(blockPrefab, new Vector3(0, 1, 0), blockPrefab.transform.rotation);
 			Instantiate(blockPrefab, new Vector3(2, 1, 0), blockPrefab.transform.rotation);
 			Instantiate(wallPrefab, new Vector3(1, 2, 0), wallPrefab.transform.rotation);
@@ -102,7 +102,7 @@ public class updateLevel : MonoBehaviour
 		else if (level == 5){
 			GameObject.Find("Escort").transform.position = new Vector3(0, -2, 0);
 			GameObject.Find("Shooter").transform.position = new Vector3(0, -4, 0);
-			GameObject.Find("Win").transform.position = new Vector3(0, 2, 0);
+			GameObject.Find("Win").transform.position = new Vector3(0, 2, 0.01f);
 			Instantiate(blockPrefab, new Vector3(0, 1, 0), blockPrefab.transform.rotation);
 			Instantiate(blockPrefab, new Vector3(1, 2, 0), blockPrefab.transform.rotation);
 			Instantiate(blockPrefab, new Vector3(-1, 2, 0), blockPrefab.transform.rotation);
@@ -124,7 +124,7 @@ public class updateLevel : MonoBehaviour
 		else if (level == 6){
 			GameObject.Find("Escort").transform.position = new Vector3(0, -2, 0);
 			GameObject.Find("Shooter").transform.position = new Vector3(0, -4, 0);
-			GameObject.Find("Win").transform.position = new Vector3(0, 2, 0);
+			GameObject.Find("Win").transform.position = new Vector3(0, 2, 0.01f);
 			Instantiate(wallPrefab, new Vector3(0, 1, 0), wallPrefab.transform.rotation);
 			Instantiate(wallPrefab, new Vector3(-1, 2, 0), wallPrefab.transform.rotation);
 			Instantiate(wallPrefab, new Vector3(0, 3, 0), wallPrefab.transform.rotation);
@@ -142,7 +142,7 @@ public class updateLevel : MonoBehaviour
 		else if (level == 7){
 			GameObject.Find("Escort").transform.position = new Vector3(0, -2, 0);
 			GameObject.Find("Shooter").transform.position = new Vector3(0, -4, 0);
-			GameObject.Find("Win").transform.position = new Vector3(0, 2, 0);
+			GameObject.Find("Win").transform.position = new Vector3(0, 2, 0.01f);
 			Instantiate(blockPrefab, new Vector3(0, 1, 0), blockPrefab.transform.rotation);
 			Instantiate(blockPrefab, new Vector3(-1, 2, 0), blockPrefab.transform.rotation);
 			Instantiate(blockPrefab, new Vector3(0, 3, 0), blockPrefab.transform.rotation);
@@ -159,7 +159,7 @@ public class updateLevel : MonoBehaviour
 		else if (level == 8){
 			GameObject.Find("Escort").transform.position = new Vector3(0, -2, 0);
 			GameObject.Find("Shooter").transform.position = new Vector3(0, -4, 0);
-			GameObject.Find("Win").transform.position = new Vector3(0, 2, 0);
+			GameObject.Find("Win").transform.position = new Vector3(0, 2, 0.01f);
 			Instantiate(blockPrefab, new Vector3(0, 3, 0), blockPrefab.transform.rotation);
 			Instantiate(blockPrefab, new Vector3(-1, 3, 0), blockPrefab.transform.rotation);
 			Instantiate(blockPrefab, new Vector3(-1, 0, 0), blockPrefab.transform.rotation);
@@ -177,7 +177,7 @@ public class updateLevel : MonoBehaviour
 		else if (level == 9){
 			GameObject.Find("Escort").transform.position = new Vector3(0, -2, 0);
 			GameObject.Find("Shooter").transform.position = new Vector3(0, -4, 0);
-			GameObject.Find("Win").transform.position = new Vector3(0, 2, 0);
+			GameObject.Find("Win").transform.position = new Vector3(0, 2, 0.01f);
 			Instantiate(blockPrefab, new Vector3(-1, 2, 0), blockPrefab.transform.rotation);
 			Instantiate(blockPrefab, new Vector3(0, 1, 0), blockPrefab.transform.rotation);
 			Instantiate(blockPrefab, new Vector3(-2, 1, 0), blockPrefab.transform.rotation);
